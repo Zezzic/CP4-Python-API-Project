@@ -1,3 +1,5 @@
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=45&pause=1000&color=091CF7&background=1D313E&center=true&vCenter=true&width=1100&height=100&lines=PROJETO+DE+API;PYTHON;JOGOS+DE+CARTUCHO)](https://git.io/typing-svg)
+
 # Catalogo de Jogos de Cartucho
 
 Projeto de API em Python com FastAPI, banco SQLite e interface web em HTML, CSS e JavaScript puro.
