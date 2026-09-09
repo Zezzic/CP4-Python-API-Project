@@ -20,7 +20,7 @@ Os passos abaixo devem ser executados no terminal, dentro da pasta raiz do proje
 O ambiente virtual isola as dependências do projeto do restante do sistema, evitando conflitos com outras instalações de Python na máquina. Esse passo só precisa ser feito uma vez.
 
 ```bash
-python -m venv venv
+py -m venv venv
 ```
 
 Isso vai criar uma pasta chamada `venv` dentro do projeto. Se o comando `python` não funcionar, tente `python3`.
