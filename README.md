@@ -1,6 +1,6 @@
 # Catalogo de Jogos de Cartucho
 
-Trabalho de API em Python com FastAPI, banco SQLite e interface web em HTML, CSS e JavaScript puro.
+Projeto de API em Python com FastAPI, banco SQLite e interface web em HTML, CSS e JavaScript puro.
 
 ## Modelos
 
