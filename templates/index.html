@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catalogo de Jogos de Cartucho</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Catalogo de Jogos</h1>
+        <p>Cadastro de desenvolvedoras e dos jogos de cada uma</p>
+    </header>
+
+    <main>
+
+        <section>
+            <h2>Desenvolvedoras</h2>
+
+            <form id="form-desenvolvedora">
+                <input type="hidden" id="desenvolvedora-id">
+
+                <div class="campos">
+                    <label>
+                        Nome
+                        <input type="text" id="desenvolvedora-nome" placeholder="Nintendo" required>
+                    </label>
+                    <label>
+                        Pais
+                        <input type="text" id="desenvolvedora-pais" placeholder="Japao" required>
+                    </label>
+                    <label>
+                        Ano de fundacao
+                        <input type="number" id="desenvolvedora-ano" placeholder="1889" required>
+                    </label>
+                </div>
+
+                <div class="botoes">
+                    <button type="submit" id="botao-salvar-desenvolvedora">Cadastrar desenvolvedora</button>
+                    <button type="button" class="secundario" onclick="limparFormularioDesenvolvedora()">Limpar</button>
+                </div>
+            </form>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Nome</th>
+                        <th>Pais</th>
+                        <th>Fundacao</th>
+                        <th>Acoes</th>
+                    </tr>
+                </thead>
+                <tbody id="tabela-desenvolvedoras"></tbody>
+            </table>
+        </section>
+
+        <section>
+            <h2>Jogos</h2>
+
+            <form id="form-jogo">
+                <input type="hidden" id="jogo-id">
+
+                <div class="campos">
+                    <label>
+                        Titulo
+                        <input type="text" id="jogo-titulo" placeholder="Super Mario World" required>
+                    </label>
+                    <label>
+                        Console
+                        <input type="text" id="jogo-console" placeholder="Super Nintendo" required>
+                    </label>
+                    <label>
+                        Ano
+                        <input type="number" id="jogo-ano" placeholder="1990" required>
+                    </label>
+                    <label>
+                        Desenvolvedora
+                        <select id="jogo-desenvolvedora" required></select>
+                    </label>
+                </div>
+
+                <div class="botoes">
+                    <button type="submit" id="botao-salvar-jogo">Cadastrar jogo</button>
+                    <button type="button" class="secundario" onclick="limparFormularioJogo()">Limpar</button>
+                </div>
+            </form>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Titulo</th>
+                        <th>Console</th>
+                        <th>Ano</th>
+                        <th>Desenvolvedora</th>
+                        <th>Acoes</th>
+                    </tr>
+                </thead>
+                <tbody id="tabela-jogos"></tbody>
+            </table>
+        </section>
+
+    </main>
+
+    <script src="/static/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,142 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f5f7;
+    color: #24292f;
+}
+
+header {
+    background-color: #2b3245;
+    color: #ffffff;
+    padding: 24px 20px;
+}
+
+header h1 {
+    margin: 0 0 6px 0;
+    font-size: 24px;
+}
+
+header p {
+    margin: 0;
+    font-size: 14px;
+    color: #c3c9d6;
+}
+
+main {
+    max-width: 900px;
+    margin: 24px auto;
+    padding: 0 16px;
+}
+
+section {
+    background-color: #ffffff;
+    border: 1px solid #d8dce2;
+    border-radius: 6px;
+    padding: 20px;
+    margin-bottom: 24px;
+}
+
+section h2 {
+    margin-top: 0;
+    font-size: 19px;
+    border-bottom: 2px solid #3b5bdb;
+    padding-bottom: 8px;
+}
+
+.campos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+label {
+    display: flex;
+    flex-direction: column;
+    font-size: 13px;
+    color: #4d5666;
+    flex: 1 1 160px;
+}
+
+input,
+select {
+    margin-top: 4px;
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #c4cad3;
+    border-radius: 4px;
+    background-color: #ffffff;
+}
+
+input:focus,
+select:focus {
+    outline: 2px solid #3b5bdb;
+    outline-offset: 1px;
+}
+
+.botoes {
+    margin-top: 14px;
+}
+
+button {
+    padding: 8px 14px;
+    font-size: 14px;
+    border: none;
+    border-radius: 4px;
+    background-color: #3b5bdb;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #32499f;
+}
+
+button.secundario {
+    background-color: #e4e7ec;
+    color: #24292f;
+}
+
+button.secundario:hover {
+    background-color: #d3d8e0;
+}
+
+button.excluir {
+    background-color: #c0392b;
+}
+
+button.excluir:hover {
+    background-color: #96291d;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+th,
+td {
+    border-bottom: 1px solid #e2e5ea;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #eef0f4;
+}
+
+td button {
+    padding: 5px 10px;
+    font-size: 13px;
+    margin-right: 4px;
+}
+
+.vazio {
+    color: #6b7280;
+    font-style: italic;
+}
